@@ -85,6 +85,29 @@ Reflection
 
 This assignment improved understanding of graph traversal algorithms and adjacency lists.
 
+---
+# Bonus Task — Dijkstra Algorithm
+
+Implemented Dijkstra’s Algorithm for shortest path search.
+
+Changes made:
+- Added weighted edges
+- Extended Edge class with weight field
+- Updated graph structure for weighted graphs
+- Implemented dijkstra(int start)
+
+Example:
+
+graph.addEdge(0, 1, 4);
+graph.addEdge(0, 2, 1);
+
+graph.dijkstra(0);
+
+Output:
+0 -> 0 = 0
+0 -> 1 = 3
+0 -> 2 = 1
+0 -> 3 = 4
 
 
 
